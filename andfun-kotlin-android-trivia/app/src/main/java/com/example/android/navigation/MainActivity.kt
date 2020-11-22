@@ -35,6 +35,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupNavigationControllerForActionBar() {
+
+        /*
+
+        myNavHostFragment binding fires error
+
+        binding.sampleTextView
+        binding.myNavHostFragment
+        */
+
         val navigationController = this.findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navigationController)
     }

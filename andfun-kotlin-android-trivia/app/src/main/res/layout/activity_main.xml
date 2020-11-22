@@ -40,6 +40,11 @@
                     app:navGraph="@navigation/navigation"
                     app:defaultNavHost="true"/>
 
+                <!--<TextView
+                    android:id="@+id/sampleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>-->
+
         </LinearLayout>
 
 </layout>
